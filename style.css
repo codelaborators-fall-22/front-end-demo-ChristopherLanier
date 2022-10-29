@@ -1,0 +1,69 @@
+/* selector with key-value pairs */
+body {
+    background-color: rgb(204, 204, 222);
+
+}
+
+.container {
+    /*this puts me inside of the container box in the index.html*/
+    box-shadow: 1px 7px 0px rgba(0, 0, 0, 0.75);
+    max-width: 1400px;
+    margin: auto;
+    padding: 20;
+
+}
+
+/*flex box deadults on the x(horizontal) axis */
+header {
+
+    display: flex;
+    /* justify-content controls x axis layout */
+    justify-content: space-between;
+    /*justify-content controls x axis layout*/
+    align-items: center;
+
+}
+
+header img {
+    height: auto;
+    width: 80px;
+}
+
+nav a {
+    color: #1d8251;
+    font-size: 18px;
+    font-weight: 600;
+    /*with margins the left number is top-bottom, the right is left-right */
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav button {
+    background-color: white;
+    border: 1px solid #1d8251;
+    border-radius: 8px;
+    color: #1d825b;
+    font-size: 18px;
+    font-weight: 600;
+    height: 60px;
+}
+
+.heroImg {
+    height: auto;
+    width: 100%;
+
+}
+
+.main {
+    /*we're always gonna work with grid template columns */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 75px;
+}
+
+.contentImg {
+    width: 60%;
+    height: auto;
+    margin: auto;
+
+}
